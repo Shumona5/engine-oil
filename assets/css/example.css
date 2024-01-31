@@ -218,11 +218,12 @@
 } */
 
 .motor-header h1{
-   
+    letter-spacing:1px;
     font-weight: 800;
     color: blue;
     text-align: initial;
     padding-left: 60px;
+    
 }
 
 .motor-header p{
@@ -231,7 +232,4 @@
     text-align: initial;
     padding-left: 60px;
     padding-right: 60px;
-}
-.container ul{
-    list-style-type: disc !important;
 }
