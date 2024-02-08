@@ -50,7 +50,7 @@
   <!-- header-area start -->
 
   <header class="sticky-top bg-light">
-    <div class="main-menu">
+    <div class="main-menu" style="height: 100px;background-color:seashell;">
       <nav class="navbar navbar-expand-lg navbar-light container">
         <div class="logo navbar-brand">
           <a class="logo-img img-fluid" href="index.html">
@@ -181,6 +181,18 @@
               </div>
             </li> -->
             <li>
+              <a href="#service" class="has-border-b border-red cool-link text-decoration-none"
+                onMouseOver="this.style.textDecoration='none'">
+                <p class="menu-heading"> Service </p>
+              </a>
+            </li>
+            <li>
+              <a href="" class="has-border-b border-red cool-link text-decoration-none"
+                onMouseOver="this.style.textDecoration='none'">
+                <p class="menu-heading">Business Promotion </p>
+              </a>
+            </li>
+            <li>
               <a href="contact.html" class="has-border-b border-red cool-link text-decoration-none"
                 onMouseOver="this.style.textDecoration='none'">
                 <p class="menu-heading">Contact</p>
@@ -192,7 +204,7 @@
                 <ul class="navbar-nav">
                   <!-- Dropdown -->
                   <li class="nav-item dropdown" style="padding-top: 10px;">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle" href="hi.html" id="navbarDropdownMenuLink" role="button"
                       data-mdb-toggle="dropdown" aria-expanded="false">
                       <b class="menu-heading">Product </b>
                     </a>
@@ -200,7 +212,7 @@
 
 
                       <li>
-                        <a href="#" class="has-border-b border-red cool-link text-decoration-none"
+                        <a href="auto.html" class="has-border-b border-red cool-link text-decoration-none"
                           onMouseOver="this.style.textDecoration='none'">
                           Automotive &raquo;
                         </a>
@@ -252,7 +264,13 @@
     </div>
   </header>
   <!-- header-area end -->
+  
+  <!-- TagLine start -->
 
+  <marquee behavior="scroll" direction="left" style="background-color:rgb(233, 240, 247);">
+    Mexon Lubricants
+  </marquee>
+  <!-- TagLine End -->
   <!--    slider section start-->
   <section class="slider-section" style="clear: both">
     <!-- slider one -->
@@ -1082,21 +1100,23 @@
          -->
     <!-- team section end -->
     <br>
-    <!------- Call To Action ----->
-    <section class="cta">
-      <img src="assets/images/home2.jpg" alt="" height="600px" width="1280px">
-
-    </section>
-
-    <br>
-
-    <div class="text-box">
+   
+    <div class="text-box" id="service">
       <h1> <b>Our Service </b></h1>
       <p>Why chose Mexon lubricants instead of others? Because it’s difficult to chose the right product with better
         quality and also give the guarantee of quality products and value for money. Mexon lubricants ensures heavy
         durable intact product packaging, competitive price, maximize oil drain interval and after- sales services.
       </p>
     </div>
+
+     <!------- Call To Action ----->
+     <section class="cta">
+      <img src="assets/images/home2.jpg" alt="" height="600px" width="1280px">
+
+    </section>
+
+    <br>
+
 
     <!------- Why Mexon Lubricants ------>
     <section class="course">
@@ -1120,7 +1140,7 @@
             » Afters sales services </p>
         </div>
         <div class="right-side">
-          <img src="./assets/images/why_mexon.jpg" width="400px" height="250px">
+          <img src="./assets/images/why_mexon.jpg" width="350px" height="250px">
         </div>
 
       </div>
@@ -1153,12 +1173,15 @@
       </div>
 
       <br>
-      <!------- Call To Action ----->
-      <section class="product">
-        <img src="assets/images/p_distribution.jpg" alt="" height="400px" width="1000px">
-
+      <!-- end of 80% -->
       </section>
+      <!------- Call To Action ----->
+      <div>
+        <img src="assets/images/p_distribution.jpg" alt=""  style="max-width: 100%;height: auto;">
 
+      </div>
+      <section class="course">
+        <!-- this is 80 % width -->
       <br>
       <section class="products">
         <img src="assets/images/products.jpg" alt="" height="400px" width="600px">
@@ -1182,11 +1205,16 @@
       </div>
 
       <br>
+      </section>
       <section class="products">
-        <img src="assets/images/business_promotion.jpg" alt="" height="600px" width="1000px">
+        <img src="assets/images/business_promotion.jpg" alt="" height="600px" width="100%">
 
       </section>
       <br>
+
+      <section class="course">
+
+
 
       <div class="business_promotion">
         <h1> Business Promotion </h1>
