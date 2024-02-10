@@ -142,7 +142,7 @@
                 onMouseOver="this.style.textDecoration='none'">
                 <p class="menu-heading">Services</p>
               </a> -->
-              <!-- <div class="sub-menu">
+            <!-- <div class="sub-menu">
                 <ul>
                   <li>
                     <a href="./empowering.html"
@@ -180,6 +180,14 @@
                 </ul>
               </div>
             </li> -->
+
+
+
+
+
+
+
+
             <li>
               <a href="#service" class="has-border-b border-red cool-link text-decoration-none"
                 onMouseOver="this.style.textDecoration='none'">
@@ -198,8 +206,8 @@
                 <p class="menu-heading">Contact</p>
               </a>
             </li>
-             
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light " style="background: none !important;">
               <div class="container-fluid">
                 <ul class="navbar-nav">
                   <!-- Dropdown -->
@@ -249,8 +257,7 @@
                 </ul>
               </div>
             </nav>
-
-
+            
 
 
             <li>
@@ -264,7 +271,7 @@
     </div>
   </header>
   <!-- header-area end -->
-  
+
   <!-- TagLine start -->
 
   <marquee behavior="scroll" direction="left" style="background-color:rgb(233, 240, 247);">
@@ -1100,7 +1107,7 @@
          -->
     <!-- team section end -->
     <br>
-   
+
     <div class="text-box" id="service">
       <h1> <b>Our Service </b></h1>
       <p>Why chose Mexon lubricants instead of others? Because it’s difficult to chose the right product with better
@@ -1109,8 +1116,8 @@
       </p>
     </div>
 
-     <!------- Call To Action ----->
-     <section class="cta">
+    <!------- Call To Action ----->
+    <section class="cta">
       <img src="assets/images/home2.jpg" alt="" height="600px" width="1280px">
 
     </section>
@@ -1174,14 +1181,14 @@
 
       <br>
       <!-- end of 80% -->
-      </section>
-      <!------- Call To Action ----->
-      <div>
-        <img src="assets/images/p_distribution.jpg" alt=""  style="max-width: 100%;height: auto;">
+    </section>
+    <!------- Call To Action ----->
+    <div>
+      <img src="assets/images/p_distribution.jpg" alt="" style="max-width: 100%;height: auto;">
 
-      </div>
-      <section class="course">
-        <!-- this is 80 % width -->
+    </div>
+    <section class="course">
+      <!-- this is 80 % width -->
       <br>
       <section class="products">
         <img src="assets/images/products.jpg" alt="" height="400px" width="600px">
@@ -1205,14 +1212,14 @@
       </div>
 
       <br>
-      </section>
-      <section class="products">
-        <img src="assets/images/business_promotion.jpg" alt="" height="600px" width="100%">
+    </section>
+    <section class="products">
+      <img src="assets/images/business_promotion.jpg" alt="" height="600px" width="100%">
 
-      </section>
-      <br>
+    </section>
+    <br>
 
-      <section class="course">
+    <section class="course">
 
 
 
@@ -1450,6 +1457,22 @@
         }
       });
     });
+
+
+  </script>
+
+  <script type="text/javascript">
+    let dropdowns = document.querySelectorAll('.dropdown-toggle')
+    dropdowns.forEach((dd) => {
+      dd.addEventListener('mouseover', function (e) {
+        var el = this.nextElementSibling
+        el.style.display = el.style.display === 'block' ? 'none' : 'block'
+      })
+      dd.addEventListener('mouseout', function (e) {
+        var el = this.nextElementSibling
+        el.style.display = el.style.display === 'block' ? 'block' : 'none'
+      })
+    })
   </script>
 
   <script type="text/javascript">
