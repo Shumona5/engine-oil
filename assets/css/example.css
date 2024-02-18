@@ -335,4 +335,14 @@
     font-weight: 800;
     color: #fff;
     padding-left: 50px;
+    padding-bottom: 100px;
+  }
+
+  @media (max-width: 767px) {
+    .bottom-left {
+        padding-top: 100px;
+       
+      
+  
+    }
   }
